@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik+Mono+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    /*border: 1px black solid;*/
+}
+
+body {
+    background: white;
+}
+
+nav {
+    background-color: #5CE1E6 !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+#logo {
+    height: 80px;
+    width: 130px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+card > img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Profile Picture */
+.profile-pic{
+    display: inline-block;
+    vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    border-radius: 50%;
+}
+ 
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}  
+
+.profile-menu .dropdown-menu {
+    right: 0;
+    left: unset;
+}
+
+.profile-menu .fa-fw {
+    margin-right: 10px;
+}
+
+.content {
+    background-color: #5CE1E6;
+    margin: 20px;
+    padding: 0;
+} 
+
+ul > li > a.sublink {
+    font-size: 16px;
+}
+
+header {
+    height: 100px;
+    padding: 20px;
+    background-color: #30AFB4;
+}
+
+header h3, p {
+    color: white;
+}
+
+header > h3 {
+    font-weight: 600;
+}
+
+.content > .content-info {
+    padding: 20px;
+}
+
+.col.content {
+    max-width: 100%; /* Ensure the column does not exceed the width of its parent */
+}
+.container {
+    padding: 0;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 100%; /* Ensure the container does not exceed the width of its parent */
+}
+ 

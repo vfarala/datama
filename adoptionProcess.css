@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik+Mono+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    /*border: 1px black solid;*/
+}
+
+body {
+    background: white;
+}
+
+nav {
+    background-color: #5CE1E6 !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+#logo {
+    height: 80px;
+    width: 130px;
+}
+
+.navbar-nav > li {
+    padding: 10px;
+}
+
+.navbar-nav > li > a {
+    border-radius: 10px;
+}
+
+.navbar-nav > li > ul.dropdown-menu:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.navbar-nav > li > a.dropdown-:hover {
+    background-color: rgb(224, 224, 224);
+    box-shadow:  0px 0px 5px black;
+    transition: all 0.3s ease;
+}
+
+
+
+@media(max-width: 991px) {
+    #logo {
+        width: 80px;
+        height: 50px;
+    }
+
+    .navbar-brand {
+        letter-spacing: 1px;
+    }
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+
+    .navbar-toggler-icon {
+        height:  1.2em;
+        width: 1.2em;
+        font-size: 12px;
+    }
+}
+
+.form-container{
+    margin-top: 3%;
+}
+
+.card {
+    border-radius: 30px;
+    width: 600px;
+}
+
+.card-body {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+/* Profile Picture */
+.profile-pic{
+    display: inline-block;
+    vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    border-radius: 50%;
+}
+ 
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}  
+
+.profile-menu .dropdown-menu {
+    right: 0;
+    left: unset;
+}
+
+.profile-menu .fa-fw {
+    margin-right: 10px;
+}
+ 
+.toggle-change::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+}
+
+.sidenav {
+    background-color: #5CE1E6;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.nav > li > a {
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav > li > a > span {
+padding: 10px;
+}
+
+
+.nav > li > a:hover {
+    color: black;
+    background-color: white;
+}
+
+.content {
+    background-color: #5CE1E6;
+    margin: 20px;
+    padding: 0;
+} 
+
+ul > li > a.sublink {
+    font-size: 16px;
+}
+
+header {
+    height: 100px;
+    padding: 20px;
+    background-color: #30AFB4;
+}
+
+header h3, p {
+    color: white;
+}
+
+header > h3 {
+    font-weight: 600;
+}
+
+.content > .content-info {
+    padding: 20px;
+}
+
+.col.content {
+    max-width: 100%; /* Ensure the column does not exceed the width of its parent */
+}
+.container {
+    padding: 0;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 100%; /* Ensure the container does not exceed the width of its parent */
+}
+
+
+  #exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  #exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  /* remove border radius for the tab */
+  
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+  
+  /* change border radius for the tab , apply corners on top*/
+  
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+  
+  #exTab3 .tab-content {
+    color: white;
+    background-color: #428bca;
+    padding: 5px 15px;
+}
+
+.tab-content >  div > p {
+    padding: 10px !important;
+    margin: 0;
+}
+
+.nav-pills li a {
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav-pills li.active a {
+    color: white;
+    background-color: #30AFB4;
+} 
+
+.input-group-append {
+    cursor: pointer;
+  }
+  
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+}
+  
+button:hover {
+    background-color: #30AFB4 !important;
+    color: black !important;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+}
+
+  

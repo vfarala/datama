@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik+Mono+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    /*border: 1px black solid;*/
+}
+
+body {
+    background: white;
+}
+
+nav {
+    background-color: #5CE1E6 !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+#logo {
+    height: 80px;
+    width: 130px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+card > img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Profile Picture */
+.profile-pic{
+    display: inline-block;
+    vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    border-radius: 50%;
+}
+ 
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}  
+
+.profile-menu .dropdown-menu {
+    right: 0;
+    left: unset;
+}
+
+.profile-menu .fa-fw {
+    margin-right: 10px;
+}
+ 
+.toggle-change::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+}
+
+.content {
+    background-color: #5CE1E6;
+    margin: 20px;
+    padding: 0;
+} 
+
+ul > li > a.sublink {
+    font-size: 16px;
+}
+
+header {
+    height: 100px;
+    padding: 20px;
+    background-color: #30AFB4;
+}
+
+header h3, p {
+    color: white;
+}
+
+header > h3 {
+    font-weight: 600;
+}
+
+.content > .content-info {
+    padding: 20px;
+}
+
+.col.content {
+    max-width: 100%; /* Ensure the column does not exceed the width of its parent */
+}
+.container {
+    padding: 0;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 100%; /* Ensure the container does not exceed the width of its parent */
+}
+
+.about-1 {
+    margin: 30px;
+    padding: 5px;
+}
+
+.about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.about-1 p {
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+
+.about-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 90px, 30px;
+    box-shadow: 0 0 9px black;
+}
+
+.about-item i {
+    font-size:  23px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 46px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-item p {
+    color: black;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-item:hover {
+    background-color: #30AFB4;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: black;
+}
+
+.about-item:hover hr {
+    background-color: black;
+    width: 70%;
+}
+
+.about-item:hover i {
+    font-size: 30px;
+    transform: translateY(-20px);
+}
+
+.about-item:hover {
+    transform: translateY(-10px);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p,
+.about-item:hover hr,
+.about-item:hover {
+    transition: all 400ms ease-in-out;
+    color: white;
+}
+
+.about-item:hover h3{
+    font-weight: bold;
+}
+
+footer {
+    background: none;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+}
